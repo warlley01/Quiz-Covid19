@@ -1,0 +1,118 @@
+.container {
+    display: grid;   
+    margin: auto;                                                           
+}
+#comecar{
+    margin-top: 300px;
+    width: 150px;
+    height: 50px;    
+    border-color: black;
+    border-width: 2px;
+    border-style: groove;
+}
+#divComecar{
+    display: flex;
+    justify-content: center;
+}
+
+#divImg {            
+  /*background-color: black; */
+    display: flex;
+    justify-content: center;
+    margin: 50;  
+    margin-top: 3em;                      
+}
+
+#divPergunta {
+    grid-row: 2;            
+    display: flex;
+    justify-content: center;            
+    font-size: 16pt;
+    margin-right: 300px;
+    margin-left: 300px;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+                                
+}        
+
+#divOptions{
+    grid-row: 3;
+ /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    margin: 50;     
+           
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+button:hover{
+    background-color: rgb(27, 248, 27);
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(206, 197, 197);
+    padding: 5px;
+}
+#detalhes{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#pontuacao{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.acertou{
+    color: rgb(21, 194, 21);
+}
+.errou{
+    color: red;
+}
+.text{
+    text-align: center;
+    font-size: 14pt;
+}
+#divReplay{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+    border: groove;
+    padding: 10px;  
+    border-color: black;          
+}
+a:link:hover{
+    background-color:rgb(17, 199, 17);
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+.mensagem{
+    color:rgb(0, 197, 204);
+}
+h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
